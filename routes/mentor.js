@@ -3,7 +3,7 @@ var router = express.Router();
 const { mentorModel } = require('../schemas/mentorSchema');
 const { studentModel } = require('../schemas/studentSchema');
 const mongoose = require('mongoose');
-const { dbUrl } = require('../common/dbconfig');
+const { dbUrl } = require('../common/dbConfig');
 mongoose.connect(dbUrl)
 
 
