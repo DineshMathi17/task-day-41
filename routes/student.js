@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const { studentModel } = require('../schemas/studentschema');
+const { studentModel } = require('../schemas/studentchema');
 const { mentorModel } = require('../schemas/mentorSchema');
 const mongoose = require('mongoose');
 const { dbUrl } = require('../common/dbconfig');
